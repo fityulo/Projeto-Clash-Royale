@@ -3,7 +3,7 @@ function showLoading() {
     div.classList.add("loading", "end");
 
     const label = document.createElement("label");
-    label.innerText = "--------------------------------------------------------------------------------------------    Loading... Please wait    --------------------------------------------------------------------------------------------";
+    label.innerText = "><Loading... Please wait><";
 
     div.appendChild(label);
 
